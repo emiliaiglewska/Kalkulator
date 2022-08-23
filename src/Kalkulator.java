@@ -1,12 +1,19 @@
 public class Kalkulator {
-    public int add(int x, int y){
+    public int dodawanie (int x, int y){
         int z;
         z = x + y;
         return z;
     }
-    public int subtraction (int x, int y){
+    public int odejmowanie (int x, int y){
         int z;
         z = x - y;
+        return z;
+    }
+    public  int mnozenie (int x, int y) {
+        return x * y;
+    }
+    public int dzielenie (int x, int y) {
+        int z = x / y;
         return z;
     }
 }
